@@ -1,6 +1,6 @@
 function Logos() {
   return (
-    <div class="container is-white">
+    <div className="container is-white">
       <div className="columns is-desktop">
         <div className="column"></div>
         <div className="column mx-5">

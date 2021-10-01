@@ -1,17 +1,8 @@
 function Footer() {
   return (
-    <footer class="footer">
-      <div class="content has-text-centered">
-        <p>
-          <strong>Bulma</strong> by{" "}
-          <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is
-          licensed
-          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The
-          website content is licensed{" "}
-          <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
-            CC BY NC SA 4.0
-          </a>
-          .
+    <footer className="footer is-purple">
+      <div className="content has-text-centered">
+        <p>© Made by <strong>Kevin Solovjov</strong> using <a href="https://reactjs.org/"><strong>React</strong></a> and   <a href="https://bulma.io/"><strong>Bulma</strong></a>
         </p>
       </div>
     </footer>

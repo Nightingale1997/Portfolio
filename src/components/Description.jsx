@@ -9,7 +9,7 @@ function Description() {
             </figure>
           </div>
           <div className="column ml-4">
-            <h2 class="subtitle">My philosophy:</h2>
+            <h2 className="subtitle">My philosophy:</h2>
             <h1 className="title">
               Imagine <span className="has-text-green-dark">and</span> implement
             </h1>
@@ -22,7 +22,7 @@ function Description() {
                 <strong>sections</strong>, like the one you're currently
                 reading.
               </p>
-              <button class="button is-dark mt-5">Do stuff pls</button>
+              <button className="button is-dark mt-5">Do stuff pls</button>
             </div>
           </div>
         </div>

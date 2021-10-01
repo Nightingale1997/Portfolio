@@ -13,12 +13,24 @@ body {
   //background:#fafafa;
 }
 
-.introduction, .projects {
+.introduction {
   padding-top: 9rem;
+      padding-bottom: 18rem;
 }
 
-.introduction {
+.projects {
+  margin-top:4.5rem;
+  .subtitle{
+    margin-bottom: 4.5rem;
+  }
+  header{
+    padding-top: 9rem;
     padding-bottom: 18rem;
+  }
+}
+
+.project-container{
+    margin-top: -14rem;
 }
 
 .purple-filter {
@@ -41,6 +53,7 @@ body {
     margin: 0;
   }
 }
+
 
 .list-title {
   margin-top: 50px;
@@ -106,4 +119,41 @@ body {
 .is-purple .title,
 .is-purple strong {
   color: white !important;
+}
+
+
+
+.image-scroll{
+  position:relative;
+top:0px;
+-webkit-transition: all 5s ease;
+-moz-transition: all 5s ease;
+-ms-transition: all 5s ease;
+-o-transition: all 5s ease;
+transition: all 5s ease;
+
+img{
+  height: auto !important;
+}
+}
+
+.image-scroll:hover{
+transform: translateY(calc(-100%));
+}
+
+.has-border-purple{
+  border: 2px solid $purple !important;
+  border-radius: 6px;
+}
+
+.featured{
+  box-sizing: border-box;
+  .image-scroll-container{
+    overflow: hidden;
+  }
+}
+
+.divider{
+  margin-top:4.5rem;
+  margin-bottom:4.5rem;
 }
