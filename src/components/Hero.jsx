@@ -8,7 +8,7 @@ function Hero() {
     //  bgImageAlt="the cat"
     //  strength={300}
     //  >
-    <section id="hero" className="hero">
+    <section id="hero" className="hero is-fullheight">
       <Navigation />
       <div className="hero-body is-white">
         <div className="container">
