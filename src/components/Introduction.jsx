@@ -8,7 +8,7 @@ function Projects() {
             <h1 className="title is-4" data-aos="zoom-in-down">
               Nice to meet you.
             </h1>
-            <h2 className="is-6" data-aos="zoom-in-down" data-aos-delay="100">
+            <h2 className="is-6" data-aos="zoom-in-down" data-aos-delay="200">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris

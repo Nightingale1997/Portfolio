@@ -1,6 +1,9 @@
 function Logos() {
   return (
     <div className="container is-white">
+      <h1 className="title has-text-centered is-4">
+        Companies I've collaborated with:
+      </h1>
       <div className="columns is-desktop">
         <div className="column"></div>
         <div className="column mx-5">
